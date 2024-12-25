@@ -18,6 +18,7 @@ public class StudentController { // Aquí creamos nuestro Endpoints
     @ResponseStatus(HttpStatus.CREATED) // Indica que cuando el método se ejecute correctamente
     public void saveStudent(@RequestBody Student student) { // Mapea el cuerpo de la solicitud a un objeto Java (en este caso, un Student).
         studentService.save(student);
+        
     }
 
     @GetMapping("/search/{id}") // Maneja solicitudes GET, generalmente para recuperar recursos.
