@@ -32,6 +32,11 @@ public class StudentController { // Aquí creamos nuestro Endpoints
         return ResponseEntity.ok(studentService.findAll());
     }
 
+    @GetMapping("/search/search-my-courses/{idCourse}")
+    public ResponseEntity<?> findByCourse(@PathVariable Long idCourse) {
+        return ResponseEntity.ok(studentService.findByIdCourse(idCourse));
+    }
+
 }
 
 

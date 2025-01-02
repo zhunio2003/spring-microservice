@@ -15,5 +15,9 @@ public interface IStudentService {
 
     void save(Student student);
 
+     // Implementar un metodo para que consuma el microservcio Course
     List<Student> findByIdCourse(Long idCourse);
+
 }
+
+

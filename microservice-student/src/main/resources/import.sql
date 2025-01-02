@@ -1,0 +1,10 @@
+INSERT INTO student (name, lastname, course_id) VALUES ('Miguel', 'Pérez', 1);
+INSERT INTO student (name, lastname, course_id) VALUES ('Ana', 'García', 1);
+INSERT INTO student (name, lastname, course_id) VALUES ('Luis', 'Mendoza', 2);
+INSERT INTO student (name, lastname, course_id) VALUES ('Sofía', 'López', 2);
+INSERT INTO student (name, lastname, course_id) VALUES ('Carlos', 'Martínez', 3);
+INSERT INTO student (name, lastname, course_id) VALUES ('María', 'Ortiz', 3);
+INSERT INTO student (name, lastname, course_id) VALUES ('Juan', 'Vega', 1);
+INSERT INTO student (name, lastname, course_id) VALUES ('Laura', 'Ramírez', 2);
+INSERT INTO student (name, lastname, course_id) VALUES ('Pedro', 'Fernández', 3);
+INSERT INTO student (name, lastname, course_id) VALUES ('Elena', 'Chávez', 1);

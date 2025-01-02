@@ -31,6 +31,6 @@ public class StudentServeImp implements IStudentService{
 
     @Override
     public List<Student> findByIdCourse(Long idCourse) {
-        return studentRepository.findAllStudent(idCourse);
+        return studentRepository.findAllByCourseId(idCourse);
     }
 }

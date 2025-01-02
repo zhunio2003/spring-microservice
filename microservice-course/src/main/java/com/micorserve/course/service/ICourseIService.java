@@ -1,6 +1,7 @@
 package com.micorserve.course.service;
 
 import com.micorserve.course.entities.Course;
+import com.micorserve.course.http.response.StudentByCourseResponse;
 
 import java.util.List;
 
@@ -11,4 +12,7 @@ public interface ICourseIService {
     Course findById(Long id);
 
     void save(Course course);
+
+
+    StudentByCourseResponse findStudentByIdCourse(Long idCourse);
 }

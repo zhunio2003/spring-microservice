@@ -12,7 +12,4 @@ public interface StudentRepository extends CrudRepository<Student, Long> {
     // Estandar de JPA
     List<Student> findAllByCourseId(Long idCourse);
 
-    // Si no queremos seguir el estandar del nombre del metodo, podemos utilizar la anotación @Query
-    @Query("SELECT s FROM Student s WHERE s.course_id = :idCourse")
-    List<Student> findAllStudent(Long idCourse);
 }
